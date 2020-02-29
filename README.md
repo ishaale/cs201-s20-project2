@@ -81,13 +81,10 @@ You are expected to make many commits as you are working on this project.
 
 ## Problem 1 (20 points)
 
-The program in  `problem1.c` is a very simple _triangle validator_. Your task is to implement the
-
-```C
-int is_valid_triangle ( int n ) ;
-```
-
-function.
+The program in  `problem1.c` is a very simple _triangle validator_.
+In a valid triangle the sum of two shortest
+sides has to be larger than the value
+of the largest side. This means that if s1 <= s2 <= s3, then s1 + s2 > s3.
 
 The three sides of the triangle are
 encoded using sets of 10 bits from the
@@ -98,9 +95,6 @@ side, the next 10 bits  (i.e., bits at positions 20-29)  are the value
 for the third side. The highest order 2
 bits are ignored and their values do not tell you anything about validity of the triangle.
 
-In a valid triangle the sum of two shortest
-sides has to be larger than the value
-of the largest side. This means that if s1 <= s2 <= s3, then s1 + s2 > s3.
 
 __Input__
 
