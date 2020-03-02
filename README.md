@@ -81,7 +81,7 @@ You are expected to make many commits as you are working on this project.
 
 ## Problem 1 (20 points)
 
-The program in  `problem1.c` is a very simple _triangle validator_.
+Your task is to write a very simple _triangle validator_.
 In a valid triangle the sum of two shortest
 sides has to be larger than the value
 of the largest side. This means that if s1 <= s2 <= s3, then s1 + s2 > s3.
@@ -369,8 +369,8 @@ bit vector using the following type/encoding combinations:
 - unsigned short
 - two's complements short
 - unsigned int
-- two's complements  int (this should result in 1 value, this value should be the same one as was entered by the user)
-- IEEE 754 single precision float (this should result in 1 value)
+- two's complements  int (this value should be the same one as was entered by the user)
+- IEEE 754 single precision float
 
 
 __Input__
@@ -397,7 +397,7 @@ Seven lines of output as follows:
 - two's complements  int (this should result in 1 value, this value should be the same one as was entered by the user)
 - IEEE 754 single precision float (this should result in 1 value);  use `%g` format specified for `printf`
 
-Each of the lines above should be preceeded by a short heading as follows:
+Each of the lines above should be preceded by a short heading as follows:
 - `bytes: `
 - `char: `
 - `ushort: `
