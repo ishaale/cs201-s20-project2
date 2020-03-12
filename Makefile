@@ -19,7 +19,7 @@ problem2: problem2.c
 problem3: problem3.c float.c float.h
 	$(CC) $(CFLAGS) -o problem3 problem3.c float.o
 
-problem2: problem4.c
+problem4: problem4.c
 	$(CC) $(CFLAGS) -o problem4 problem4.c
 
 float.o: float.c float.h
